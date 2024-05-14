@@ -7,7 +7,7 @@ public class RectTest extends MyFrame{
 		setColor(0,255,255);
 		fillRect(130,40,50,100);
 		
-		setColor(260,0,255);
+		setColor(255,0,255);
 		fillRect(90,200,20,100);
 		
 		setColor(0,0,0);
