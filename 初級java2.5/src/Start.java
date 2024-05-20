@@ -12,6 +12,7 @@ public class Start {
 		MyFrame fram4l=new OvalTest();
 		MyFrame frame2=new TextTest();
 		MyFrame frame5=new ManyFigures();
+		MyFrame framel=new RectLoop();
 		
 	}
 
