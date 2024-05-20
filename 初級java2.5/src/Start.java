@@ -11,6 +11,7 @@ public class Start {
 		frame3.setLocation(50,300);
 		MyFrame fram4l=new OvalTest();
 		MyFrame frame2=new TextTest();
+		MyFrame frame5=new ManyFigures();
 		
 	}
 
