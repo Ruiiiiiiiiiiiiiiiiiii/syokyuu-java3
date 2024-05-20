@@ -13,6 +13,7 @@ public class Start {
 		MyFrame frame2=new TextTest();
 		MyFrame frame5=new ManyFigures();
 		MyFrame framel=new RectLoop();
+		MyFrame frame6=new RectIf();
 		
 	}
 
