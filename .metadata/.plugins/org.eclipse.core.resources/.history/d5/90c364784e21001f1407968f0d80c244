@@ -1,0 +1,26 @@
+import java.util.Vector;
+public class DisplayFaceVector extends MyFrame {
+	public void run() {
+		Vector<Face> faces=new Vector<Face>();
+		
+		faces.add(new Face(30,50,10,5));
+		faces.add(new Face(30,100,11,5));
+		faces.add(new Face(30,150,12,5));
+		faces.add(new Face(30,200,13,5));
+		faces.add(new Face(30,250,14,5));
+		
+		for(int i=0; i<=; i++) {
+			
+			clear();
+			
+			for(int j=0; j<faces.size();j++) {
+				faces.get(j).draw(this);		
+				faces.get(j).move();
+			}
+			
+			sleep(0.1);
+			
+		}
+	}
+
+}

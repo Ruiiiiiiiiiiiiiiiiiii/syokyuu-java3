@@ -1,0 +1,7 @@
+
+public class caranimation extends MyFrame{
+	public void run() {
+		
+	}
+
+}
