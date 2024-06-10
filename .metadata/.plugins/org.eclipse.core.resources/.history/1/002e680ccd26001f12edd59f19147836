@@ -7,14 +7,9 @@ public class Vehicle {
 		this.vx=vx;
 		this.vy=vy;
 	}
-	public void draw(MyFrame frame) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
 	public void move() {
 		x+=vx;
 		y+=vy;
 	}
-	
 
 }
